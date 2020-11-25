@@ -29,7 +29,6 @@ jobs:
           go get -v -t -d ./...
 
       - name: Run
-        uses: flownative/action-docker-build@v1
         run: |
           go build ./
           ./tests
