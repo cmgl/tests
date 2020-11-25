@@ -30,6 +30,6 @@ jobs:
 
       - name: Run
         run: |
-          go build ./
+          go run main.go
         env:
           TEST_VARIABLE: mona
