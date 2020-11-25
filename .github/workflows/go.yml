@@ -32,5 +32,6 @@ jobs:
         run: |
           go build ./
           ./tests
+          echo test
         env:
           TEST_VARIABLE: mona
