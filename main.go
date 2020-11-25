@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
+
 	fmt.Println("Got environment variable:", os.Getenv("TEST_VARIABLE")[0:20])
 }
