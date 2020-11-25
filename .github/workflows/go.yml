@@ -34,4 +34,4 @@ jobs:
           ./tests
           echo test
         env:
-          TEST_VARIABLE: mona
+          TEST_VARIABLE: ${{ secrets.GITHUB_TOKEN }}
